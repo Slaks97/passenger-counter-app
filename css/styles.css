@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../images/crowd.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: .30;
+}
+
+h1,
+h2,
+p,
+button {
+    position: relative;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 5rem;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 250px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 0;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+#increment-btn {
+    background: #9c0101;
+}
+
+#increment-btn:hover,
+#increment-btn:focus {
+    background: #e20101;
+    cursor: pointer;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-btn:hover,
+#save-btn:focus {
+    background: #03c603;
+    cursor: pointer;
+}
+
+p {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+
+
